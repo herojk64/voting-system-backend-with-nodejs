@@ -2,8 +2,6 @@ const express = require('express')
 const cors = require('cors')
 const serverless = require("serverless-http");
 
-const port = process.env.PORT || 3000;
-
 const app = express();
 
 require('dotenv').config();
